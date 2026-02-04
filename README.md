@@ -10,15 +10,13 @@ El proyecto sigue una arquitectura hexagonal y cada Bounded Context sigue la est
 - **infrastructure/**: Implementaciones técnicas (repositories, persistencia)
 - **interfaces/**: Capa de presentación (REST controllers, resources, transformers)
 
-## Instalación
-
-### Prerrequisitos
+## Prerrequisitos
 
 - Python 3.13
 - PostgreSQL (Supabase)
 - pip
 
-### Pasos de instalación
+## Pasos de instalación
 
 **1. Clonar el repositorio**
 ```bash
@@ -55,9 +53,9 @@ DATABASE_PASSWORD="db-password"
 
 ---
 
-## Guía para Obtener Credenciales
+### Guía para Obtener Credenciales
 
-### Base de Datos - Supabase
+#### Base de Datos - Supabase
 
 A. **Crear cuenta en Supabase**
    - Ve a https://supabase.com
@@ -79,7 +77,7 @@ B. **Obtener credenciales de conexión**
 
 ---
 
-### SMTP - Gmail (para notificaciones por email)
+#### SMTP - Gmail (para notificaciones por email)
 
 A. **Habilitar verificación en 2 pasos**
    - Crea una nueva cuenta de Gmail 
@@ -109,7 +107,7 @@ C. **Configurar en `.env`**
 
 ---
 
-### Cloudinary (para almacenamiento de imágenes)
+#### Cloudinary (para almacenamiento de imágenes)
 
 A. **Crear cuenta en Cloudinary**
    - Ve a https://cloudinary.com
@@ -142,7 +140,7 @@ C. **Configurar en `.env`**
 python main.py
 ```
 
-La API estará disponible en:
+Tras realizar este último paso, la API estará disponible en:
 - **Swagger UI**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
 
