@@ -1,0 +1,28 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+pydantic-settings==2.3.4
+SQLalchemy==2.0.44
+alembic==1.12.1
+psycopg[binary]==3.2.3
+python-jose[cryptography]==3.4.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.19
+python-dotenv==1.0.0
+httpx==0.27.2
+bcrypt==4.1.1
+email-validator==2.1.0
+gunicorn==21.2.0
+shortuuid~=1.0.13
+requests~=2.32.5
+cloudinary==1.44.0
+
+# ========================================
+# Dependencias ML - Comentadas para Phase 1
+# ========================================
+numpy~=2.2.6
+joblib~=1.5.2
+tensorflow~=2.20.0
+kaggle~=1.7.4.5
+scikit-image~=0.25.2
+opencv-python-headless~=4.12.0.88
